@@ -1,7 +1,12 @@
 site_name: Telco Integrator
 site_url: https://github.com/IBM/telco-integrator
 site_description: describe asset
-theme: material
+theme: 
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expand
 nav:
 - Overview: index.md
 - Business Case: biz_case.md
@@ -12,5 +17,3 @@ nav:
 - Market Your APIs: devportal.md
 - API Connect Analytics: analytics.md
 - Infuse Artificial Intelligence: cp4d-ai.md
-
-
