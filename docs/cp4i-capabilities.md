@@ -1,0 +1,1 @@
+# IBM Cloud Pak for Integration: capabilities

@@ -1,0 +1,1 @@
+# Hybrid Integration Reference Architecture
