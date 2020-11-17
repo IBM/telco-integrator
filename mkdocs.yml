@@ -1,13 +1,9 @@
 site_name: Telco Integrator
 site_url: https://github.com/IBM/telco-integrator/
 site_description: describe asset
-theme: 
-  name: material
-features:
-  - navigation.instant
-  - navigation.tabs
-  - navigation.expand
+theme: windmill
 nav:
+- Home: index.md
 - Overview: index.md
 - Business Case: biz_case.md
 - Integrator Solution Overview: solution_overview.md
