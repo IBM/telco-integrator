@@ -1,4 +1,4 @@
-# Business Case for Open apis
+# Business Case for Open APIs
 ## Dramatically improving business & IT agility
 Open APIs enable a modular platform architecture, allowing CSPs to abstract underlying complexity and establish a set of platform capabilities which can be used to radically reduce time-to-market for new services and the cost of creating and operating these new services.
 
