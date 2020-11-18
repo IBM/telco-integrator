@@ -2,7 +2,7 @@
 
 The Telemanagement Forum, commonly referred to as "TM Forum" or "TMF", is a nonprofit industry association for service providers and their suppliers in the telecommunications and entertainment industries. Members of this association include telephone companies, cable operators, network operators, software suppliers, equipment suppliers and systems integrators. TM Forum members, including the world’s largest service providers and suppliers such as IBM, have been working to develop APIs that support the TM Forum API Ecosystem.
 
-The TM Forum API Ecosystem is a family of over 50 REST APIs designed to make it easier to create,build and operate complex innovative services. This set of standard interfaces enables rapid, repeatable and flexible integration among operations and management systems. The APIs are based on the Business Process Framework (called eTOM), which is a critical component of Frameworx. Designed to enable end-to-end services for today’s digital economy, Frameworx is the TM Forum’s blueprint for successful business transformation.
+The TM Forum API Ecosystem is a family of over 50 REST APIs designed to make it easier to create, build and operate complex innovative services. This set of standard interfaces enables rapid, repeatable and flexible integration among operations and management systems. The APIs are based on the Business Process Framework (called eTOM), which is a critical component of Frameworx. Designed to enable end-to-end services for today’s digital economy, Frameworx is the TM Forum’s blueprint for successful business transformation.
 
 In the digital economy age, services are typically delivered through a sophisticated partnering of multiple providers that all use different systems and interfaces. The TM Forum REST-based APIs are designed for uses ranging from Internet of Things (IoT) device management to complex B2B value fabrics. They apply to API-driven scenarios such as IoT, digital health, smart grids, big data, Network Functions Virtualization (NFV), next-generation operations support systems, business support systems (OSS/BSS) and more.
 
@@ -12,7 +12,7 @@ To date, 71 of the world’s leading communications service providers (CSPs) and
     
     **Marisa Viveros, VP Strategy & Offerings – Telecom, Media and Entertainment Industries**
 
-This document describes the Open API Accelerator for Telco built by IBM Expertise Connect. The Accelerator is a Cloud-native asset based on IBM Cloud Pak for Integration and leverages IBM Cloud Pak for Data for AI infusion.
+This document describes the Open API Accelerator for Telco built by IBM Expertise Connect. The Accelerator is a Cloud-native asset based on [IBM Cloud Pak for Integration](https://www.ibm.com/cloud/cloud-pak-for-integration)  and leverages [IBM Cloud Pak for Data](https://www.ibm.com/products/cloud-pak-for-data) for AI infusion.
 
 - The TM Forum APIs are exposed through API Connect and DataPower
 - Routing and data transformation implemented in IBM App Connect for Enterprise (ACE).

@@ -9,4 +9,4 @@ The current wholesale ecosystem is laden with inefficient and largely manual pro
 With service providers under increasing pressure to improve IT efficiency and overall agility, the costs and risks associated with point-to-point integrations need to be reduced. TM Forum Open APIs, in combination with the established Frameworx standards, provide a pragmatic way to dramatically cut the time and risks associated with systems transformation projects, ongoing maintenance and future change requests.
 
 ## Reducing the cost and complexity of CSP operations
-Large operator groups with 20+ regional businesses need to reduce cost, simplify operations and crate harmony across geographic regions and the globe in order to deploy new group-wide or region-wide product offerings.
+Large operator groups with 20+ regional businesses need to reduce cost, simplify operations and create harmony across geographic regions and the globe in order to deploy new group-wide or region-wide product offerings.

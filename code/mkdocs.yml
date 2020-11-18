@@ -42,4 +42,6 @@ plugins:
         separator: '[\s\-\.]+'
         prebuild_index: true
 #    - macros
-   
+  
+extra_javascript:
+    - js/extra.js 
