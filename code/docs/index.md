@@ -1,3 +1,4 @@
+![telco integrator](img/banner.png)
 # IBM and the TMF API Ecosystem
 
 The Telemanagement Forum, commonly referred to as "TM Forum" or "TMF", is a nonprofit industry association for service providers and their suppliers in the telecommunications and entertainment industries. Members of this association include telephone companies, cable operators, network operators, software suppliers, equipment suppliers and systems integrators. TM Forum members, including the world’s largest service providers and suppliers such as IBM, have been working to develop APIs that support the TM Forum API Ecosystem.
