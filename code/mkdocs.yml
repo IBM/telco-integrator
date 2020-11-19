@@ -21,7 +21,7 @@ nav:
 - Home: 'index.md'
 - Business Case: 'biz_case.md'
 - Integrator Solution Overview: 'solution_overview.md'
-- Hybrid Reference Architecture: 'hybrid_ref-arch.md'
+- Reference Architecture: 'hybrid_ref-arch.md'
 - IBM CP4I Capabilites: 'cp4i-capabilities.md'
 - TMF Open APIs Integrated: 'tmf-apis_in_cp4i.md'
 - Market Your APIs: 'devportal.md'
