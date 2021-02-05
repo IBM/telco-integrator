@@ -18,7 +18,7 @@ theme:
         - tabs
         - navigation.tabs
 nav:
-- Home: 'index.md'
+- Home - Overview: 'index.md'
 - Business Case: 'biz_case.md'
 - Integrator Solution Overview: 'solution_overview.md'
 - Reference Architecture: 'hybrid_ref-arch.md'
