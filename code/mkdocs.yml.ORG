@@ -3,13 +3,11 @@ site_url: https://github.com/IBM/telco-integrator/
 site_description: Asset for telco CSPs
 # Copyright
 copyright: <a href="/about/">IBM</a>
-docs_dir: staging
 theme: 
     name: material
 #    custom_dir: custom_theme
 #    logo: banner.png
 #    favicon: 'aot.png'
-    show_sidebar: true
     palette:
         primary: 'black'
         accent: 'red'
@@ -17,11 +15,10 @@ theme:
         text: 'IBM Plex Sans'
         code: 'IBM Plex Mono'
     features:
-        - navigation.instant
-#        - navigation.tabs
-        - navigation.sections
+        - tabs
+        - navigation.tabs
 nav:
-- Home: 'index.md'
+- Home - Overview: 'index.md'
 - Business Case: 'biz_case.md'
 - Integrator Solution Overview: 'solution_overview.md'
 - Reference Architecture: 'hybrid_ref-arch.md'
@@ -37,7 +34,7 @@ markdown_extensions:
     - toc:
         baselevel: 4
         separator: "-"
-        permalink: True
+#       permalink: True
     - sane_lists
 
 # Plugins
