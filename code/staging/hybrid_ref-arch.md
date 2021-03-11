@@ -1,6 +1,6 @@
 # Cloud Application Integration Reference Architecture
 
-The IBM Cloud Application Integration Reference Architecture explores common patterns in enterprises and hybrid cloud environments. The distributed component-based architecture supports lightweight fine-grained integration services to enable microservices and on-demand runtime application-level composition and aggregation.  
+The IBM Cloud Application Integration Reference Architecture explores common patterns in enterprises and hybrid cloud environments. The distributed component-based architecture supports lightweight fine-grained integration services to enable micro-services and on-demand runtime application-level composition and aggregation.  
 The *Accelerator for Telco* asset is based on this reference architecture, with a special focus on modular design and flexibility to extend the architecture as needed.
 
 The following diagram shows an example scenario that leverages all key components within the architecture.
@@ -8,6 +8,7 @@ The following diagram shows an example scenario that leverages all key component
 ![Ref Architecture](img/hybrid-ref-arch.png)
 
 *Scenario description:*  
+
 1. The user accesses a published service by using a mobile device.  
 2. The cloud-native application is invoked.  
 3. The application uses all the cloud services that are available on the cloud platform to enrich the user experience.  
@@ -20,3 +21,19 @@ The following diagram shows an example scenario that leverages all key component
 10. Event-driven integration allows enterprise applications to consume and process events that are published by the native applications. It also allows for enterprise events to be published and consumed by cloud services such as analytics and cognitive.  
 11. High-speed file transfer capabilities enable the quick synchronization of large content and data among cloud repositories and enterprise back-end systems across global geographies.  
 12. The integration platform also integrates with enterprise nonfunctional aspects with a unified perspective on DevOps, logging and monitoring, and security.
+
+Note that this architecture (and example scenario) is still implementation- and product-agnostic.
+The *Accelerator for Telco* is designed to implement the capabilities using IBM's Cloud Pak solution platforms, with IBM Cloud Pak for Integration being predominantly used.
+
+The mapping of architecture capabilities to Cloud Pak capabilities is as follows:
+
+ Architecture capability | Cloud Pak capability
+ ----------------------- | --------------------
+ Transformation & Connectivity | DataPower Gateway
+ API Management | API Connect
+ Application Data Integration | App Connect Enterprise
+ Enterprise Messaging | MQ Advanced
+ Event Streaming | Event Streams
+ High-speed Data Transfer | Aspera High Speed Transfer Server  
+
+The Solution Design section will describe in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
