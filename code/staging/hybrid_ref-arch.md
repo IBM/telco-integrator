@@ -25,7 +25,7 @@ The following diagram shows an example scenario that leverages all key component
 Note that this architecture (and example scenario) is still implementation- and product-agnostic.
 The *Accelerator for Telco* is designed to implement the capabilities using IBM's Cloud Pak solution platforms, with IBM Cloud Pak for Integration being predominantly used.
 
-The mapping of architecture capabilities to Cloud Pak capabilities is as follows:
+The mapping of integration architecture capabilities to Cloud Pak capabilities is as follows:
 
  Architecture capability | Cloud Pak capability
  ----------------------- | --------------------
@@ -36,4 +36,12 @@ The mapping of architecture capabilities to Cloud Pak capabilities is as follows
  Event Streaming | Event Streams
  High-speed Data Transfer | Aspera High Speed Transfer Server  
 
+This architecture is open and can be extended as needed. As an example, components of the Data and AI reference architecture can be used to add analytics and AI to the solution architecture.
+
 The Solution Design section will describe in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
+
+*References:*
+
+[Integration Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/modern-integration/reference-architecture/)
+
+[Data and AI Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dataAIArchitecture/reference-architecture)
