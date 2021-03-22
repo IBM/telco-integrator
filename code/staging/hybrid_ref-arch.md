@@ -38,7 +38,9 @@ The mapping of integration architecture capabilities to Cloud Pak capabilities i
 
 This architecture is open and can be extended as needed. As an example, components of the Data and AI reference architecture can be used to add analytics and AI to the solution architecture.
 
-The Solution Design section will describe in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
+The Cloud Pak Architecture section explains how architecture capabilities are provided by IBM as part of the IBM Cloud Pak solutions.
+
+The Solution Design section describes in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
 
 *References:*
 
