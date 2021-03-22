@@ -24,6 +24,7 @@ nav:
 - Home: 'index.md'
 - Business Case: 'biz_case.md'
 - Reference Architecture: 'hybrid_ref-arch.md'
+- Cloud Pak Architecture: 'cloud_pak_arch.md'
 - Integrator Solution Overview: 'solution_overview.md'
 - IBM CP4I Capabilites: 'cp4i-capabilities.md'
 - TMF Open APIs Integrated: 'tmf-apis_in_cp4i.md'
