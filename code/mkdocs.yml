@@ -45,8 +45,8 @@ markdown_extensions:
 plugins:
     - search:
         separator: '[\s\-\.]+'
-        prebuild_index: true
+#        prebuild_index: true
 #    - macros
   
 extra_javascript:
-    - js/extra.js 
+#    - js/extra.js 
