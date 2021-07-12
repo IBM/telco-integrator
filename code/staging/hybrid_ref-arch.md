@@ -36,14 +36,16 @@ The mapping of integration architecture capabilities to Cloud Pak capabilities i
  Event Streaming | Event Streams
  High-speed Data Transfer | Aspera High Speed Transfer Server  
 
-This architecture is open and can be extended as needed. As an example, components of the Data and AI reference architecture can be used to add analytics and AI to the solution architecture.
+This architecture is open and can be extended as needed. As an example, components of the Data and AI reference architecture can be used to add analytics and infuse AI.
 
-The Cloud Pak Architecture section explains how architecture capabilities are provided by IBM as part of the IBM Cloud Pak solutions.
+The [Cloud Pak Architecture section](cloud_pak_arch.md) explains how architecture capabilities are provided by IBM as part of the IBM Cloud Pak solutions.
 
-The Solution Design section describes in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
+The [Solution Overview section](solution_overview.md) describes in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
 
 *References:*
 
 [Integration Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/modern-integration/reference-architecture/)
 
 [Data and AI Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dataAIArchitecture/reference-architecture)
+
+[Business Automation Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dba-architecture/reference-architecture)

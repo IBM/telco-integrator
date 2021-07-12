@@ -13,14 +13,8 @@ To date, 71 of the world’s leading communications service providers (CSPs) and
     
     **Marisa Viveros, VP Strategy & Offerings – Telecom, Media and Entertainment Industries**
 
-This document describes the Open API Accelerator for Telco built by IBM Expertise Connect. The Accelerator is a Cloud-native asset based on [IBM Cloud Pak for Integration](https://www.ibm.com/cloud/cloud-pak-for-integration)  and leverages [IBM Cloud Pak for Data](https://www.ibm.com/products/cloud-pak-for-data) for AI infusion.
-
-- The TM Forum APIs are exposed through API Connect and DataPower
-- Routing and data transformation implemented in IBM App Connect for Enterprise (ACE).
-- IBM Event Streams manages order history, in-flight order events and notifications
-- Sterling Order Management pipelines are used for Order state management
-- Order decomposition and execution build plan decision system is provided by IBM Operation Decision Manager (ODM)
+This document describes the Open API Accelerator for Telco built by IBM Expertise Connect. The Accelerator is a Cloud-native asset based on solutions from several [IBM Cloud Paks](https://www.ibm.com/cloud/paks).
 
 The Open API Accelerator implements the TM Forum specifications for Product Ordering Management and provides consistent interactions with Order Negotiation systems such as Siebel and Salesforce Vlocity. Future releases will implement additional TM Forum Business Operations specifications.
 
-This asset also provides a framework for existing customers who use the Telco Pack to move CSP workloads to the Cloud. Components of this Accelerator have already been used to speed up delivery of a Proof of Concept at Saudi Telco Company.
+This asset also provides a framework for existing customers who use the Telco Pack to move CSP workloads to the Cloud. Components of this Accelerator have already been used to speed up delivery of a Proof of Concept at a Saudi Telco company.

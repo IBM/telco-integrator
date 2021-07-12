@@ -11,4 +11,5 @@ As of today, the Automation Foundation layer is part of four IBM Cloud Paks, wit
 The final layer in the Cloud Pak architecture is the *solution layer* with the respective solutions of a given Cloud Pak (like IBM API Connect and IBM App Connect Enterprise in IBM Cloud Pak for Integration).  
 
 As mentioned earlier, the Accelerator for Telco is implemented using various Cloud Pak solutions.  
-The *Integrator Solution Overview* describes those components in more detail.
+
+The [Integrator Solution Overview](solution_overview.md) describes those components in more detail.
