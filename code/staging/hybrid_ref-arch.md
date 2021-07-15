@@ -1,7 +1,7 @@
 # Cloud Application Integration Reference Architecture
 
 The IBM Cloud Application Integration Reference Architecture explores common patterns in enterprises and hybrid cloud environments. The distributed component-based architecture supports lightweight fine-grained integration services to enable micro-services and on-demand runtime application-level composition and aggregation.  
-The *Accelerator for Telco* asset is based on this reference architecture, with a special focus on modular design and flexibility to extend the architecture as needed.
+The *Telco Integrator* asset is based on this reference architecture, with a special focus on modular design and flexibility to extend the architecture as needed.
 
 The following diagram shows an example scenario that leverages all key components within the architecture.
 
@@ -23,7 +23,7 @@ The following diagram shows an example scenario that leverages all key component
 12. The integration platform also integrates with enterprise nonfunctional aspects with a unified perspective on DevOps, logging and monitoring, and security.
 
 Note that this architecture (and example scenario) is still implementation- and product-agnostic.
-The *Accelerator for Telco* is designed to implement the capabilities using IBM's Cloud Pak solution platforms, with IBM Cloud Pak for Integration being predominantly used.
+The *Telco Integrator* is designed to implement the capabilities using IBM's Cloud Pak solution platforms, with IBM Cloud Pak for Integration being predominantly used.
 
 The mapping of integration architecture capabilities to Cloud Pak capabilities is as follows:
 
@@ -38,14 +38,14 @@ The mapping of integration architecture capabilities to Cloud Pak capabilities i
 
 This architecture is open and can be extended as needed. As an example, components of the Data and AI reference architecture can be used to add analytics and infuse AI.
 
-The [Cloud Pak Architecture section](cloud_pak_arch.md) explains how architecture capabilities are provided by IBM as part of the IBM Cloud Pak solutions.
+The [IBM Cloud Pak Architecture section](cloud_pak_arch.md) explains how architecture capabilities are provided by IBM as part of the IBM Cloud Pak solutions.
 
-The [Solution Overview section](solution_overview.md) describes in detail how this generic architecture is specialized by the *Accelerator for Telco* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
+The [Solution Overview section](solution_overview.md) describes in detail how this generic architecture is specialized by the *Telco Integrator* to enable the specific scenarios required by solutions leveraging the TMF Open APIs.
 
 *References:*
 
-[Integration Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/modern-integration/reference-architecture/)
+[Integration Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/modern-integration/reference-architecture/){target=_blank}
 
-[Data and AI Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dataAIArchitecture/reference-architecture)
+[Data and AI Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dataAIArchitecture/reference-architecture){target=_blank}
 
-[Business Automation Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dba-architecture/reference-architecture)
+[Business Automation Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/dba-architecture/reference-architecture){target=_blank}

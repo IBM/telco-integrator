@@ -1,4 +1,4 @@
-site_name: Accelerator for Telco
+site_name: Telco Integrator
 site_url: https://github.com/IBM/telco-integrator/
 site_description: Asset for telco CSPs
 # Copyright
@@ -24,8 +24,8 @@ nav:
 - Home: 'index.md'
 - Business Case: 'biz_case.md'
 - Reference Architecture: 'hybrid_ref-arch.md'
-- Cloud Pak Architecture: 'cloud_pak_arch.md'
-- Integrator Solution Overview: 'solution_overview.md'
+- IBM Cloud Pak Architecture: 'cloud_pak_arch.md'
+- Solution Overview: 'solution_overview.md'
 - TMF Open APIs Integrated: 'tmf-apis_in_cp4i.md'
 - Monetize Your APIs: 'devportal.md'
 - API Connect Analytics: 'analytics.md'
@@ -39,6 +39,7 @@ markdown_extensions:
         separator: "-"
         permalink: True
     - sane_lists
+    - attr_list
 
 # Plugins
 plugins:
