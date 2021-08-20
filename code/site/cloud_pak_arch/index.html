@@ -18,7 +18,7 @@
     
     
       
-        <title>Cloud Pak Architecture - Accelerator for Telco</title>
+        <title>IBM Cloud Pak Architecture - Telco Integrator</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cloud-pak-architecture-overview" class="md-skip">
+        <a href="#ibm-cloud-pak-architecture-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Accelerator for Telco" class="md-header__button md-logo" aria-label="Accelerator for Telco" data-md-component="logo">
+    <a href=".." title="Telco Integrator" class="md-header__button md-logo" aria-label="Telco Integrator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -91,13 +91,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Accelerator for Telco
+            Telco Integrator
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cloud Pak Architecture
+              IBM Cloud Pak Architecture
             
           </span>
         </div>
@@ -158,13 +158,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Accelerator for Telco" class="md-nav__button md-logo" aria-label="Accelerator for Telco" data-md-component="logo">
+    <a href=".." title="Telco Integrator" class="md-nav__button md-logo" aria-label="Telco Integrator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    Accelerator for Telco
+    Telco Integrator
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -229,12 +229,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Cloud Pak Architecture
+          IBM Cloud Pak Architecture
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Cloud Pak Architecture
+        IBM Cloud Pak Architecture
       </a>
       
         
@@ -249,8 +249,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cloud-pak-architecture-overview" class="md-nav__link">
-    Cloud Pak Architecture Overview
+  <a href="#ibm-cloud-pak-architecture-overview" class="md-nav__link">
+    IBM Cloud Pak Architecture Overview
   </a>
   
 </li>
@@ -272,22 +272,7 @@
   
     <li class="md-nav__item">
       <a href="../solution_overview/" class="md-nav__link">
-        Integrator Solution Overview
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cp4i-capabilities/" class="md-nav__link">
-        IBM CP4I Capabilites
+        Solution Overview
       </a>
     </li>
   
@@ -376,8 +361,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cloud-pak-architecture-overview" class="md-nav__link">
-    Cloud Pak Architecture Overview
+  <a href="#ibm-cloud-pak-architecture-overview" class="md-nav__link">
+    IBM Cloud Pak Architecture Overview
   </a>
   
 </li>
@@ -395,11 +380,20 @@
               
                 
                 
-                  <h1>Cloud Pak Architecture</h1>
+                  <h1>IBM Cloud Pak Architecture</h1>
                 
-                <h4 id="cloud-pak-architecture-overview">Cloud Pak Architecture Overview<a class="headerlink" href="#cloud-pak-architecture-overview" title="Permanent link">&para;</a></h4>
-<p><img alt="Cloud Pak Architecture" src="../img/cloud_paks.png" /></p>
-<p>TBD</p>
+                <h4 id="ibm-cloud-pak-architecture-overview">IBM Cloud Pak Architecture Overview<a class="headerlink" href="#ibm-cloud-pak-architecture-overview" title="Permanent link">&para;</a></h4>
+<p>The following picture is a high-level overview of the current Cloud Pak architecture by IBM.</p>
+<p><img alt="IBM Cloud Pak Architecture" src="../img/cloud_paks.png" /></p>
+<p>As shown in the picture, <em>Red Hat OpenShift</em> is the foundation for all IBM Cloud Paks.<br />
+On top of OpenShift, IBM Cloud Paks ship a layer of <em>common platform services</em> that provide capabilities like cluster logging and monitoring.<br />
+The next layer is called <em>Automation Foundation</em> and provides additional capabilities across the product groups / Cloud Paks, such as Process Mining, Robotic Process Automation and asset sharing between Cloud Paks.<br />
+As of today, the Automation Foundation layer is part of four IBM Cloud Paks, with the other ones possibly being added in the future.<br />
+The final layer in the Cloud Pak architecture is the <em>solution layer</em> with the respective solutions of a given Cloud Pak (like IBM API Connect and IBM App Connect Enterprise in IBM Cloud Pak for Integration).  </p>
+<p>As mentioned earlier, the <em>Telco Integrator</em> is implemented using various Cloud Pak solutions.  </p>
+<p>The <a href="../solution_overview/">Solution Overview</a> describes those components in more detail.</p>
+<p><em>References:</em></p>
+<p><a href="https://www.ibm.com/cloud/paks" target="_blank">IBM Cloud Paks Landing Page</a></p>
                 
               
               
@@ -439,7 +433,7 @@
               <span class="md-footer__direction">
                 Next
               </span>
-              Integrator Solution Overview
+              Solution Overview
             </div>
           </div>
           <div class="md-footer__button md-icon">
